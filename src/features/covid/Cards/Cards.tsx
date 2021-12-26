@@ -35,7 +35,7 @@ const Cards: React.FC = () => {
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
               <AiFillLike />
-              回復数
+              回復者数
             </Typography>
             <Typography variant="h5">
               <CountUp
