@@ -5,7 +5,7 @@ import { RootState } from '../../app/store'
 import dataJson from './data.json'
 import dataJsonDaily from './dataDaily.json'
 
-const apiUrl = 'https://covid19.mathdro.id/api/'
+const apiUrl = 'https://covid19.mathdro.id/api'
 
 type APIDATA = typeof dataJson
 type APIDATADAILY = typeof dataJsonDaily

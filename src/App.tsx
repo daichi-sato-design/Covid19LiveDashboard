@@ -4,6 +4,7 @@ import './App.css'
 import Cards from './features/covid/Cards/Cards'
 import Chart from './features/covid/Chart/Chart'
 import PieChart from './features/covid/PieChart/PieChart'
+import SwitchCountry from './features/covid/SwitchCountry/SwitchCountry'
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Cards />
         <Chart />
         <PieChart />
+        <SwitchCountry />
       </header>
     </div>
   )
